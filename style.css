@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background-color: #181818;
+}
+.happy-text {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.box {
+    font-size: 36px;
+    text-align: center;
+}
+.box.box-style {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.container {
+    display: flex;
+    gap: 24px;
+}
+
+.char {
+    font-size: 72px;
+    display: inline-block;
+}
+.char0 {
+    color: #2c2c54;
+}
+.char1 {
+    color: #eb4d4b;
+}
+.char2 {
+    color: #6ab04c;
+}
+.char3 {
+    color: #e056fd;
+}
+.char4,
+.char7 {
+    color: #4834d4;
+}
+.char5 {
+    color: #f79f1f;
+}
+.char6 {
+    color: #6f1e51;
+}
+.char8 {
+    color: #ed4c67;
+}
+.char9 {
+    color: #ffc312;
+}
+.char10 {
+    color: #00d8d6;
+}
+.char11 {
+    color: #f7f1e3;
+}
+.char12 {
+    color: #05c46b;
+}
+#btn {
+    /* display: none; */
+}
+@media screen and (max-width: 576px) {
+    .container.flex-col {
+        flex-direction: column;
+    }
+}
